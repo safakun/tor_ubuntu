@@ -12,3 +12,12 @@ check:
 ```bash
 wget -qO - https://api.ipify.org; echo
 ```
+FIrefox network settings: 
+
+localhost port 9050 
+SOCKS v5
+
+Then restart tor
+```bash
+sudo systemctl restart tor
+```
